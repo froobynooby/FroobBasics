@@ -1,0 +1,51 @@
+max-homes:
+- froobbasics.sethome:1
+- froobbasics.sethome.loyalist:2
+- froobbasics.sethome.veteran:3
+
+motd:
+- Hey there, %PLAYER%! Welcome to &cFroobWorld Semi-Vanilla.
+- Please read the &c/rules&f if you haven't already and type &c/help&f to view your available commands.
+- 'Currently online: %PLAYERLIST%'
+
+rules:
+- '&c#1&f Don''t grief.'
+- '&c#2&f Don''t steal, lure or scam.'
+- '&c#3&f Do not use hacks or modded clients.'
+- '&c#4&f Don''t advertise other servers.'
+- '&c#5&f Respect others.'
+- '&c#6&f Do not ask for ranks.'
+- '&c#7&f Do not use profanity.'
+- '&c#8&f Have fun!'
+- '&eOnce you have read the rules, type /apply and wait for someone with the appropriate permissions to remove you from the grey list.'
+
+first-join-message: '&d%PLAYER%&d just joined for the first time.'
+
+afk:
+  time-for-announcement: 360
+  time-for-kick: 360
+
+commands-usable-in-jail:
+- '/mail'
+- '/rules'
+- '/playerlist'
+
+ban-appeal-url: 'froobworld.com/forums'
+
+disable-creative: true
+
+random-teleport:
+  max-teleports: 3
+  max-x: 6500
+  min-x: -6500
+  max-z: 6500
+  min-z: -6500
+
+broadcast:
+  enabled: true
+  delay: 1200
+  messages:
+  - 'You can join the forums for updates and discussions at &cfroobworld.com&f.'
+  - 'You can report things to the staff members using &c/report&f.'
+  - 'If a player is annoying you, use &c/ignore&f to mute them.'
+  - 'If you want to vote for the server visit &cfroobworld.com/vote&f. There are no in-game rewards, but it is appreciated.'

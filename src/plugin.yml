@@ -1,0 +1,124 @@
+name: FroobBasics
+main: com.froobworld.froobbasics.FroobBasics
+author: froobynooby
+version: 4.2.0
+api-version: 1.13
+description: >
+             Basic commands for a server.
+softdepend: [DiscordSRV]
+commands:
+   help:
+    description: Get a list of commands.
+   home:
+    description: Teleport to a home.
+   homes:
+    description: List your homes.
+   sethome:
+    description: Set a home at your location.
+   delhome:
+    description: Delete a home.
+   warp:
+    description: Teleport to a warp.
+   warps:
+    description: Get a list of warps.
+   setwarp:
+    description: Set a warp at your location.
+   delwarp:
+    description: Delete a warp.
+   mail:
+    description: Manage your mail.
+   seen:
+    description: Get the last time a player was seen.
+   firstjoin:
+    description: Get the first time a player joined.
+    aliases: [fj]
+   setportal:
+    description: Set a portal at your current location.
+   delportal:
+    description: Delete a portal.
+   linkportals:
+    description: Link two portals together.
+   portals:
+    description: Get a list of portals.
+   friend:
+    description: Manage your friends.
+   afk:
+    description: Toggle AFK.
+   playerlist:
+    description: List online players.
+    aliases: [who, list, online, plist, players]
+   mute:
+    description: Mute a player.
+   unmute:
+    description: Unmute a player.
+   stafflog:
+    description: Get a list of punishment records.
+   ban:
+    description: Ban a player from the server.
+   unban:
+    description: Unban a banned player.
+   jail:
+    description: Jail a player.
+   jails:
+    description: Get a list of jails.
+   unjail:
+    description: Unjail a player.
+   setjail:
+    description: Set a jail at your location.
+   deljail:
+    description: Delete a jail.
+   vanish:
+    description: Vanish from the screens of other players.
+   check:
+    description: Check if a player is banned, muted or jailed.
+   message:
+    description: Privately message another player.
+    aliases: [msg, tell, send, pm, whisper, w, tell]
+   reply:
+    description: Reply to the last person to message you.
+    aliases: [r, re]
+   spawn:
+    description: Teleport to the spawn point.
+   setspawn:
+    description: Set the spawn point.
+   weather:
+    description: Change the weather in your world.
+   teleport:
+    description: Teleport to another player.
+    aliases: [tp, tele, tport, port]
+   tphere:
+    description: Teleport another player to you.
+   tpa:
+    description: Request to teleport to another player.
+   tpahere:
+    description: Request for a player to teleport to you.
+   tpaccept:
+    description: Accept a teleport request.
+   tpdeny:
+    description: Deny a teleport request.
+   motd:
+    description: Get the message of the day.
+   rules:
+    description: Get a list of rules.
+   ignore:
+    description: Manage your ignore list.
+   back:
+    description: Teleport to your last location.
+   ping:
+    description: Pong!
+    aliases: [table]
+   me:
+    description: Describe an action from third-person.
+    aliases: [holding]
+   names:
+    description: Look up the name history of a player.
+   tptoggle:
+    description: Toggle whether others can teleport to you.
+   poll:
+    description: View results of or vote in a poll.
+
+
+
+
+
+
