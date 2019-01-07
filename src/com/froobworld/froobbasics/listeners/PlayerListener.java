@@ -130,7 +130,7 @@ public class PlayerListener implements Listener {
             if (e.getMessage().startsWith("\\")) {
                 e.setMessage(e.getMessage().substring(1, e.getMessage().length()));
             }
-            e.setMessage(e.getMessage() + "�S");
+            e.setMessage(e.getMessage() + "§S");
             if (dynmap != null) {
                 DynmapCommonAPI api = ((DynmapCommonAPI) dynmap);
                 api.setDisableChatToWebProcessing(true);

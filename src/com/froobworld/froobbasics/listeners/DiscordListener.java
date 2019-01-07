@@ -8,7 +8,7 @@ public class DiscordListener {
 
     @Subscribe(priority = ListenerPriority.MONITOR)
     public void onMessageProcessEvent(GameChatMessagePreProcessEvent e) {
-        if (e.getMessage().endsWith("�S")) {
+        if (e.getMessage().endsWith("§S")) {
             e.setCancelled(true);
         }
     }
